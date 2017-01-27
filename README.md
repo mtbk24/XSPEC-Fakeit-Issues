@@ -1,4 +1,4 @@
-# Fakeit Example
+# Fakeit Example,  XSPEC Version: 12.9.0k and PyXspec version: 1.1.0
 
 This Fakeit example in PyXspec shows how to trick XSPEC into producing a type-II file that holds 10,000 spectra for the 'n3' detector.  
 

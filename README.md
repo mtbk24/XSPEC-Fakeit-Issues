@@ -15,9 +15,14 @@ lle is the LAT Low Energy detector onboard Fermi.  These spectral and background
 
 
 
-The Notebook in this example names the file "fakespec_n3_grbm+pow_-01-_L_.fak" with the model name having a plus sign.  This causes problems for Fakeit for some reason; causing it to ouput type-I format instead of type-II.
+The Notebook in this example names the file 
+fakespec_n3_grbm+pow_-01-_L_ 
+with the model name having a plus sign.  
+This causes problems for Fakeit for some reason; causing it to ouput type-I format instead of type-II.
 
 Change the '+' to '-' in the filename and a type-II file holding 10,000 spectra will be created, as desired.
-"fakespec_n3_grbm+pow_-01-_L_.fak" to "fakespec_n3_grbm-pow_-01-_L_.fak"
+fakespec_n3_grbm+pow_-01-_L_ 
+to 
+fakespec_n3_grbm-pow_-01-_L_
 
 Spectral files are provided here as well as the files created by the program.

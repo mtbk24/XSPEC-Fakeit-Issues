@@ -26,6 +26,6 @@ This causes problems for Fakeit for some reason; causing it to ouput type-I form
 Change the '+' to '-' in the filename and a type-II file holding 10,000 spectra will be created, as desired.
 <pre><code> fakespec_n3_grbm+pow_-01-_L_.fak </code></pre>
 to 
-<pre><code> fakespec_n3_grbm-pow_-01-_L_.fake </code></pre>
+<pre><code> fakespec_n3_grbm-pow_-01-_L_.fak </code></pre>
 
 Spectral files are provided here as well as the files created by the program.

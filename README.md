@@ -15,7 +15,6 @@ lle is the LAT Low Energy detector onboard Fermi.  These spectral and background
 <br />
 <br />
 <br />
-<br />
       
 <p>  </p>
 

@@ -16,7 +16,7 @@ lle is the LAT Low Energy detector onboard Fermi.  These spectral and background
 </break> 
 </break> 
       
-<p>This is a normal paragraph:</p>
+<p>  </p>
 
 <pre><code>This is a code block.
 </code></pre>
@@ -27,8 +27,8 @@ with the model name having a plus sign.
 This causes problems for Fakeit for some reason; causing it to ouput type-I format instead of type-II.
 
 Change the '+' to '-' in the filename and a type-II file holding 10,000 spectra will be created, as desired.
-    fakespec_n3_grbm+pow_-01-_L_ 
+<pre><code> fakespec_n3_grbm+pow_-01-_L_.fak </code></pre>
 to 
-    fakespec_n3_grbm-pow_-01-_L_
+<pre><code> fakespec_n3_grbm-pow_-01-_L_.fake </code></pre>
 
 Spectral files are provided here as well as the files created by the program.

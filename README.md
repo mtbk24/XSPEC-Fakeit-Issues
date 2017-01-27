@@ -19,9 +19,6 @@ lle is the LAT Low Energy detector onboard Fermi.  These spectral and background
       
 <p>  </p>
 
-<pre><code>This is a code block.
-</code></pre>
-
 The Notebook in this example names the file 
     fakespec_n3_grbm+pow_-01-_L_ 
 with the model name having a plus sign.  

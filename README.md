@@ -7,26 +7,12 @@ Because the n3 detector is originally of type-I format, Fakeit defaults output t
 
 You need to trick Fakeit by providing a spectral file of type-II format, which is what the 'lle' file is for. (the 'lle' file).  
 
-The type-II format file should be listed as the first spectra in the AllData containier, meaning AllData(1) should be the 'lle' file, and AllData(2) should be the 'n3' file.
+The type-II format file is the only one that needs to be loaded into the AllData container, meaning AllData(1) should be the 'lle' file.  The 'n3' file, that we wish to make 10,000 synthetic spectra of do not need to be loaded.  We only need to give the Fakeit Settings the filename, response filename, and background filename.  If the exposure is not in the background file's header, an exposure will need to be supplied to the settings as well.  fs2.exposure.
 
-n3 is a GBM NaI detector onboard the Fermi Space Telescope.  These spectral and background files were prepared in the RMFIT program provided by the GBM team and are therefore of type-I format.  The response file is of type-II format, but the spectral file would need to be as well for Fakeit to work without tricking it.
+n3 is a GBM NaI detector onboard the Fermi Space Telescope.  These spectral and background files were prepared in the RMFIT program provided by the GBM team and are therefore of type-I format.  
 
 lle is the LAT Low Energy detector onboard Fermi.  These spectral and background files were prepared in the GTBURST program provided by the LAT team within the Fermi Science Tools and are type-II format.
 
 <br />
 <br />
 <br />
-      
-<p>  </p>
-
-The Notebook in this example names the file 
-    fakespec_n3_grbm+pow_-01-_L_ 
-with the model name having a plus sign.  
-This causes problems for Fakeit for some reason; causing it to ouput type-I format instead of type-II.
-
-Change the '+' to '-' in the filename and a type-II file holding 10,000 spectra will be created, as desired.
-<pre><code> fakespec_n3_grbm+pow_-01-_L_.fak </code></pre>
-to 
-<pre><code> fakespec_n3_grbm-pow_-01-_L_.fak </code></pre>
-
-Spectral files are provided here as well as the files created by the program.
